@@ -18,7 +18,6 @@
             </div>
         </form>
     </div>
-    <p>{{ inputText }}</p>
 </template>
 
 <script setup>
