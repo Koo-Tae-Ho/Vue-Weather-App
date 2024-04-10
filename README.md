@@ -1,7 +1,33 @@
-# Vue 3 + Vite
+# Vue - Weather App: 각 지역의 날씨정보 제공 ☀️
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 프로젝트 소개 📝
 
-## Recommended IDE Setup
+Vue와 openWeather API를 사용한 날씨정보 제공
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+---
+
+## 주요 기능 ⚙️ 
+
+- **각 지역의 날씨정보제공**
+
+- **원하는 지역 검색가능**
+
+---
+
+## 사용한 기술 🛠
+
+- **Vuex**: 전역상태관리
+
+- **fetch**: API 통신
+  
+- **vite**: 빌드도구
+
+- **Font Awesome**: 무료 아이콘
+
+---
+
+## 프로젝트 이미지 📷
+<img width="624" alt="image" src="https://github.com/Koo-Tae-Ho/Vue-Weather-App/assets/133594273/d6eec046-2798-45b5-a214-9625756835ae">
+
+
+
