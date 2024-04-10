@@ -22,6 +22,8 @@ https://vue-weather-app-flame.vercel.app/
 
 - **Vuex**: 전역상태관리
 
+- **Pinia**: 전역상태관리(업데이트)
+
 - **fetch**: API 통신
 
 - **Vercel**: 서비스 배포
