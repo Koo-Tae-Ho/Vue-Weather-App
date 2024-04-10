@@ -5,7 +5,11 @@
 Vue와 openWeather API를 사용한 날씨정보 제공
 
 ---
+## 서비스 이용하기 📊 
 
+https://vue-weather-app-flame.vercel.app/
+
+---
 ## 주요 기능 ⚙️ 
 
 - **각 지역의 날씨정보제공**
@@ -19,6 +23,8 @@ Vue와 openWeather API를 사용한 날씨정보 제공
 - **Vuex**: 전역상태관리
 
 - **fetch**: API 통신
+
+- **Vercel**: 서비스 배포
   
 - **vite**: 빌드도구
 
