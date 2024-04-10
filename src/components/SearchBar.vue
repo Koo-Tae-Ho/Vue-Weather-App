@@ -9,8 +9,8 @@
                 />
                 <button
                     @click="
-                        $store.commit('onSearchCity', inputText);
-                        $store.dispatch('getWeather');
+                        store.onSearchCity(inputText);
+                        store.getWeather();
                     "
                 >
                     <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
@@ -22,9 +22,10 @@
 
 <script setup>
 import { ref } from "vue";
-
+import { useStore } from "../store/store";
 const inputText = ref("");
-const emits = defineEmits(["onSearchCity"]);
+const store = useStore();
+//const emits = defineEmits(["onSearchCity"]);
 </script>
 
 <style lang="scss" scoped>
